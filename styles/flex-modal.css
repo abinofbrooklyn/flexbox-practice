@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  background-color: #35a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.modal-container {
+  position: absolute;
+  background-color: rgba(0,0,0, .5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  width: 400px;
+  height: 275px;
+  background-color: #eee;
+  font-size: 14px;
+  border-radius: 8px;
+  box-shadow: 0 0 40px #555;
+}
+
+.modal h2 {
+  background-color: #40a9ed;
+  color: #fff;
+  padding: 10px;
+}
+
+.modal-body {
+  padding: 10px;
+  padding-top: 0;
+}

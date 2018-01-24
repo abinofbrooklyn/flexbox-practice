@@ -1,0 +1,69 @@
+html, body { padding: 0; margin: 0; }
+
+.image01 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-01.jpg');
+  flex: 1;
+}
+.image02 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-02.jpg');
+  flex: 1;
+}
+.image03 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-03.jpg');
+  flex: 2;
+}
+.image04 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-04.jpg');
+  flex: 1;
+}
+.image05 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-05.jpg');
+  flex: 2;
+}
+.image06 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-06.jpg');
+  flex: 2
+}
+.image07 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-07.jpg');
+  flex: 1
+}
+.image08 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-08.jpg');
+  flex: 3
+}
+.image09 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-09.jpg');
+  flex: 1
+}
+.image10 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-10.jpg');
+}
+.image11 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-11.jpg');
+}
+.image12 {
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/409269/food-drink-12.jpg');
+}
+
+.image10, .image11, .image12 {
+  flex: 1
+}
+
+.image-row {
+  display: flex;
+}
+
+.image-row div {
+  height: 240px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: 4px;
+}
+
+@media screen and (max-width: 400px) {
+  .image-row {
+    flex-direction: column;
+  }
+}
